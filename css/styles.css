@@ -1,4 +1,13 @@
 /* Your Website Styles */
+body {
+	background: #88D792;
+}
+
+
+h1 {
+	font-family: 'Lobster', cursive;
+	color: #fff;
+}
 
 
 /* Show Grid */
