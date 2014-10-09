@@ -20,6 +20,18 @@ p {
 	line-height: 28px;
 }
 
+h3 {
+	color: red;
+}
+
+.subhead {
+	font-style: italic;
+	margin-left: 30px;
+	margin: 30px 40px;
+	border: 2px orange solid;
+	padding: 10px;
+}
+
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
