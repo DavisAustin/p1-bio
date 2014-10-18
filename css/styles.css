@@ -1,38 +1,148 @@
-/* Your Website Styles */
-body {
-	background: url("../img/bg.png") #88D792;
+/***************************** 
+Colors
+******************************/
+
+.container {
+	background-color: #D1D3D4;
+}
+
+a {
+	color: white;
 }
 
 
-h1 {
-	font-family: 'Oswald', sans-serif;
-	color: #000;
-	font-style: italic;
-	padding: 10px;
-	border: 10px black double;
-	width: 300px;
-	margin: 10px;
-
-	background: red;
+header {
+  background-color: #414042;
 }
 
-p {
-	line-height: 28px;
+.name {
+	color: #414042;
 }
 
-h3 {
-	color: red;
+.about {
+	color: #414042;
 }
 
-.subhead {
-	font-style: italic;
-	margin-left: 30px;
-	margin: 30px 40px;
-	border: 2px orange solid;
-	padding: 10px;
+.main-footer {
+	color: #414042;
 }
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+h2 {
+	color: #414042;
+}
+
+.major {
+	color: #414042;
+}
+
+
+/***************************** 
+Navigation
+******************************/
+
+a {
+  text-decoration: none;
+  margin: 0;
+  font-size: 18px;
+}
+
+nav ul {
+	text-align: right;
+  	margin: 0;
+  	padding: 0 60px 0 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+li {
+	list-style: none;
+	padding: 40px 20px 20px 0;
+}
+
+/***************************** 
+Header
+******************************/
+
+header {
+	width: 100%;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #03B9FF;
+}
+
+/***************************** 
+Container
+******************************/
+
+.container {
+	width: 1080px;
+	margin: auto;
+}
+
+/***************************** 
+About Me
+******************************/
+
+.main-content {
+	width: 50%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.about p {
+	padding: 0 0 0 40px;
+}
+
+
+.me {
+	width: 100%;
+	margin: 0 0 25px 0;
+	border-top-left-radius: 20%;
+}
+
+.about {
+	text-align: left;
+	margin: 0 0 40px 0;
+}
+
+.name {
+	margin: 100px 0 40px 0;
+	text-align: center;
+}
+
+/***************************** 
+VCD 
+******************************/
+
+.major {
+	text-align: left;
+	margin: 0 0 40px 0;
+}
+
+.major h3 {
+	padding: 0 0 0 40px;
+}
+
+.major p {
+	margin: 0 0 0 40px;
+}
+
+/***************************** 
+Footer
+******************************/
+
+footer {
+	text-align: left;
+}
+
+footer p {
+	margin: 0 0 10px 0;
+}
+
+.social-media {
+	word-spacing: 7px;
 }
