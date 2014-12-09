@@ -1,13 +1,24 @@
 /***************************** 
 Colors
+#D1D3D4
 ******************************/
+
+body {
+	background: silver;
+	background-image: url(http://www.transparenttextures.com/patterns/gplay.png);
+}
 
 .container {
 	background-color: #D1D3D4;
 }
 
 a {
-	color: white;
+	color: #fff;
+}
+
+a:hover {
+	color: #03B9FF;
+	transition: color .5s ease-in-out;
 }
 
 
@@ -69,6 +80,34 @@ li {
 	padding: 40px 20px 20px 0;
 }
 
+.logo {
+	height: 50px;
+	width: auto;
+	position: absolute;
+	margin-top: 18px;
+	margin-left: 19px;
+	opacity: 1;
+}
+
+.logo:hover {
+	opacity: 0;
+	transition: opacity .5s ease-in-out;
+}
+
+.logohover {
+	height: 50px;
+	width: auto;
+	position: absolute;
+	margin-top: 18px;
+	margin-left: 19px;
+	opacity: 0;
+}
+
+.logohover:hover {
+	opacity: 1;
+	transition: opacity .5s ease-in-out;
+}
+
 /***************************** 
 Header
 ******************************/
@@ -99,6 +138,7 @@ About Me
 	height: auto;
 	margin: auto;
 	text-align: center;
+	padding-top: 100px;
 }
 
 .about-me {
@@ -114,7 +154,7 @@ About Me
 .me {
 	width: 100%;
 	margin: 0 0 25px 0;
-	border-top-left-radius: 20%;
+	border-top-left-radius: 100px 100px;
 }
 
 .about {
@@ -159,6 +199,7 @@ Footer
 
 footer {
 	text-align: left;
+	padding-bottom: 10px;
 }
 
 footer p {
@@ -167,4 +208,8 @@ footer p {
 
 .social-media {
 	word-spacing: 7px;
+}
+
+.social-media a:hover {
+	opacity: .4;
 }
